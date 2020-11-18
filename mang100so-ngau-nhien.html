@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let myArr = [];
+    for (i=0; i<100; i++)
+        myArr.push(Math.floor(Math.random()*1000));
+
+
+        document.write("mang ban dau");
+        document.write(myArr.join());
+        myArr.sort(function (a, b){return a-b;});
+        document.write("mang sau khi sap xep");
+        document.write(myArr.join());
+
+</script>
+</body>
+</html>
